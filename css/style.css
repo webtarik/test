@@ -14,7 +14,7 @@ input{vertical-align:middle;}
 /* -------------------------------
 		Font style 
 ------------------------------- */
-body{font:12px/18px Arial, Tahoma, Verdana, sans-serif;}
+body{font:14px/17px Tahoma, Geneva, Kalimati, sans-serif; color:#666666;}
 h1, h2, h3, h4, h5, h6{font-weight:normal;}
 a{text-decoration:none;}
 a:hover{text-decoration:underline;}
@@ -22,15 +22,21 @@ a:hover{text-decoration:underline;}
 /* -------------------------------
 		Base style 
 ------------------------------- */
-#wrapper{width:1000px; margin:0 auto; min-height:100%; height:auto !important; height:100%;}
-#header{height: 150px; background: #FFE680;}
-#middle{width: 100%; padding:0 0 100px 0;}
+body{background:#f0efeb url("../img/header_bg.jpg") 0 0 repeat-x;}
+#wrapper{width:986px; margin:0 auto; min-height:100%; height:auto !important; height:100%;}
+#header{position:relative; height:122px;}
+#middle{width:100%; padding:0 0 291px 0;}
 #middle:after{content:''; display:block; clear:both; visibility:hidden; height:0;}
 #container{float:left; width:100%;}
-#content{margin:0 0 0 250px; background:#f47281;}
-#left_sidebar{float:left; width:250px; margin-left:-100%; background:#B5E3FF;}
-#footer{width:1000px; margin:-100px auto 0; height:100px; background:#BFF08E; position:relative;}
+#content{margin:0 0 0 343px; background:#f47281;}
+#left_sidebar{float:left; width:343px; margin-left:-100%;}
+#footer{position:relative; width:100%; margin:-291px auto 0; height:291px; background:url("../img/footer_bg.jpg") repeat-x 0 100%;}
 
 /* -------------------------------
-		Template style 
+		Index style 
 ------------------------------- */
+#slider{height:394px;}
+.logo{position:absolute; top:34px; left:32px;}
+.search{float:right;}
+	.search input{height:23px; border:none;}
+.top_menu{clear:both; float:right;}
