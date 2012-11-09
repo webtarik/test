@@ -17,7 +17,7 @@ input{vertical-align:middle;}
 body{font:14px/17px Tahoma, Geneva, Kalimati, sans-serif; color:#666666;}
 h1, h2, h3, h4, h5, h6{font-weight:normal;}
 a{text-decoration:none;}
-a:hover{text-decoration:underline;}
+a:hover{}
 
 /* -------------------------------
 		Base style 
@@ -38,5 +38,8 @@ body{background:#f0efeb url("../img/header_bg.jpg") 0 0 repeat-x;}
 #slider{height:394px;}
 .logo{position:absolute; top:34px; left:32px;}
 .search{float:right;}
-	.search input{height:23px; border:none;}
-.top_menu{clear:both; float:right;}
+	.search input[type="text"]{float:left; width:132px; height:12px; line-height:12px; padding:6px 6px 5px; font-size:12px; border:none; color:#49494b; background:#f0efeb;}
+	.search input[type="image"]{margin:0 22px 0 0;}
+.top_menu{clear:both; float:right; margin:42px 22px 0 0;}
+	.top_menu li{float:left; padding:0 7px;}
+	.top_menu li a{text-transform:uppercase; font:15px; font-weight:bold; color:#f0efeb;}
